@@ -2,7 +2,7 @@ Planejamento
 
 Primeira entrega: Cadastro e listagem de professores e Angular Routing + Angular Material(Inicio)
 
-Segunda entrega: Cadastro e listagem de alunos e Angular Material + CSS
+Segunda entrega: Cadastro e listagem de alunos e Angular Material + Estilização completa com CSS
 
 Terceira entrega: HTTP Request
 
