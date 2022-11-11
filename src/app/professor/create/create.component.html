@@ -1,0 +1,28 @@
+<section>
+  <h1>Cadastrar Professor</h1>
+
+  <form [formGroup]="professorForm" (submit)="cadastrarProfessor()">
+     <mat-form-field appearance="fill">
+      <mat-label>Id</mat-label>
+      <input matInput placeholder="Id" formControlName="inputId" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Nome do Professor</mat-label>
+      <input matInput placeholder="Nome" formControlName="inputNome" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Matérias que Leciona</mat-label>
+      <input matInput placeholder="Matérias" formControlName="inputMaterias" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Turnos Disponíveis</mat-label>
+      <input matInput placeholder="Turnos Disponíveis" formControlName="inputTurno" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Salario</mat-label>
+      <input matInput placeholder="Salario" formControlName="inputSalario" required>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Cadastrar</button>
+  </form>
+</section>
