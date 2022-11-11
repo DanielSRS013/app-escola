@@ -1,3 +1,21 @@
+Planejamento
+
+Primeira entrega: Cadastro e listagem de professores e Angular Routing + Angular Material(Inicio)
+
+Segunda entrega: Cadastro e listagem de alunos e Angular Material + CSS
+
+Terceira entrega: HTTP Request
+
+
+
+
+
+
+
+
+
+
+
 # AppEscola
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
